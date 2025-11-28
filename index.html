@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Ark Grid Calculator — Lost Ark Edition</title>
+<title>Ark Grid Calculator — Expanded Edition</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -204,13 +204,18 @@
     text-shadow: 0 1px 2px #000;
   }
   
-  .gem-A { background: radial-gradient(circle at 30% 30%, #ff7a7a, #8a2b2b); border-color: #ff9999; }
-  .gem-B { background: radial-gradient(circle at 30% 30%, #ffa64d, #8f5316); border-color: #ffbf80; }
-  .gem-C { background: radial-gradient(circle at 30% 30%, #ffd54d, #94720d); border-color: #ffe680; }
-  .gem-D { background: radial-gradient(circle at 30% 30%, #7ad17a, #246624); border-color: #99ff99; }
-  .gem-E { background: radial-gradient(circle at 30% 30%, #6fc1ff, #1a5c8f); border-color: #99d6ff; }
-  .gem-F { background: radial-gradient(circle at 30% 30%, #c38bff, #5e2e91); border-color: #d9b3ff; }
-  .gem-G { background: radial-gradient(circle at 30% 30%, #e0e0e0, #5c5c5c); border-color: #fff; }
+  /* Gem Colors - Updated Spectrum */
+  .gem-A { background: radial-gradient(circle at 30% 30%, #ff5252, #8a2b2b); border-color: #ff8a8a; } /* Red */
+  .gem-B { background: radial-gradient(circle at 30% 30%, #ff8c42, #8f4b16); border-color: #ffb580; } /* Orange */
+  .gem-C { background: radial-gradient(circle at 30% 30%, #ffd54f, #94720d); border-color: #ffe082; } /* Yellow */
+  .gem-D { background: radial-gradient(circle at 30% 30%, #9ccc65, #4a6624); border-color: #c5e1a5; } /* Light Green */
+  .gem-E { background: radial-gradient(circle at 30% 30%, #4caf50, #1b5e20); border-color: #81c784; } /* Green */
+  .gem-F { background: radial-gradient(circle at 30% 30%, #26a69a, #004d40); border-color: #80cbc4; } /* Teal */
+  .gem-G { background: radial-gradient(circle at 30% 30%, #29b6f6, #01579b); border-color: #81d4fa; } /* Light Blue */
+  .gem-H { background: radial-gradient(circle at 30% 30%, #3f51b5, #1a237e); border-color: #7986cb; } /* Indigo */
+  .gem-K { background: radial-gradient(circle at 30% 30%, #9c27b0, #4a148c); border-color: #ce93d8; } /* Purple */
+  .gem-L { background: radial-gradient(circle at 30% 30%, #78909c, #37474f); border-color: #b0bec5; } /* Silver/Grey */
+
 
   .gem-type { font-size: 18px; font-family: 'Cinzel', serif; }
   .gem-sub { font-size: 10px; font-weight: 400; opacity: 0.9; text-transform: uppercase; letter-spacing: 0.5px; }
@@ -234,13 +239,16 @@
     <table aria-label="Class inventory">
       <thead><tr><th>Gem</th><th>Will</th><th>Pts</th><th>Qty</th></tr></thead>
       <tbody>
-        <tr><td><span style="color:#ff7a7a">A</span></td><td>3</td><td>5</td><td><input id="class_A" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ffa64d">B</span></td><td>4</td><td>5</td><td><input id="class_B" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ffd54d">C</span></td><td>5</td><td>5</td><td><input id="class_C" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#7ad17a">D</span></td><td>3</td><td>4</td><td><input id="class_D" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#6fc1ff">E</span></td><td>4</td><td>4</td><td><input id="class_E" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#c38bff">F</span></td><td>5</td><td>4</td><td><input id="class_F" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ddd">G</span></td><td>6</td><td>5</td><td><input id="class_G" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ff5252">A</span></td><td>3</td><td>5</td><td><input id="class_A" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ff8c42">B</span></td><td>3</td><td>4</td><td><input id="class_B" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ffd54f">C</span></td><td>3</td><td>3</td><td><input id="class_C" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#9ccc65">D</span></td><td>4</td><td>5</td><td><input id="class_D" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#4caf50">E</span></td><td>4</td><td>4</td><td><input id="class_E" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#26a69a">F</span></td><td>4</td><td>3</td><td><input id="class_F" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#29b6f6">G</span></td><td>5</td><td>5</td><td><input id="class_G" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#3f51b5">H</span></td><td>5</td><td>4</td><td><input id="class_H" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#9c27b0">K</span></td><td>5</td><td>3</td><td><input id="class_K" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#78909c">L</span></td><td>6</td><td>5</td><td><input id="class_L" type="number" min="0" value="0"></td></tr>
       </tbody>
     </table>
 
@@ -260,13 +268,16 @@
     <table aria-label="General inventory">
       <thead><tr><th>Gem</th><th>Will</th><th>Pts</th><th>Qty</th></tr></thead>
       <tbody>
-        <tr><td><span style="color:#ff7a7a">A</span></td><td>3</td><td>5</td><td><input id="general_A" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ffa64d">B</span></td><td>4</td><td>5</td><td><input id="general_B" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ffd54d">C</span></td><td>5</td><td>5</td><td><input id="general_C" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#7ad17a">D</span></td><td>3</td><td>4</td><td><input id="general_D" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#6fc1ff">E</span></td><td>4</td><td>4</td><td><input id="general_E" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#c38bff">F</span></td><td>5</td><td>4</td><td><input id="general_F" type="number" min="0" value="0"></td></tr>
-        <tr><td><span style="color:#ddd">G</span></td><td>6</td><td>5</td><td><input id="general_G" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ff5252">A</span></td><td>3</td><td>5</td><td><input id="general_A" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ff8c42">B</span></td><td>3</td><td>4</td><td><input id="general_B" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#ffd54f">C</span></td><td>3</td><td>3</td><td><input id="general_C" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#9ccc65">D</span></td><td>4</td><td>5</td><td><input id="general_D" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#4caf50">E</span></td><td>4</td><td>4</td><td><input id="general_E" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#26a69a">F</span></td><td>4</td><td>3</td><td><input id="general_F" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#29b6f6">G</span></td><td>5</td><td>5</td><td><input id="general_G" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#3f51b5">H</span></td><td>5</td><td>4</td><td><input id="general_H" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#9c27b0">K</span></td><td>5</td><td>3</td><td><input id="general_K" type="number" min="0" value="0"></td></tr>
+        <tr><td><span style="color:#78909c">L</span></td><td>6</td><td>5</td><td><input id="general_L" type="number" min="0" value="0"></td></tr>
       </tbody>
     </table>
 
@@ -308,18 +319,27 @@
    ------------------------- */
 const ASTROGEMS = {
   A: { will: 3, points: 5 },
-  B: { will: 4, points: 5 },
-  C: { will: 5, points: 5 },
-  D: { will: 3, points: 4 },
+  B: { will: 3, points: 4 },
+  C: { will: 3, points: 3 },
+  D: { will: 4, points: 5 },
   E: { will: 4, points: 4 },
-  F: { will: 5, points: 4 },
-  G: { will: 6, points: 5 }
+  F: { will: 4, points: 3 },
+  G: { will: 5, points: 5 },
+  H: { will: 5, points: 4 },
+  K: { will: 5, points: 3 },
+  L: { will: 6, points: 5 }
 };
 const CORE_WILL = { Relic: 15, Ancient: 17 };
 const MAX_SLOTS = 4;
 const MAX_CORES = 3;
-const GEM_WEIGHT = { A: 6, B: 5, C: 4, D: 3, E: 2, F: 1, G: 0 };
-// Increased TOP_N to ensure we capture both efficient and inefficient valid combos
+
+// Weighted preference (Higher = better efficiency/utility)
+const GEM_WEIGHT = { 
+  A: 10, B: 9, C: 8, 
+  D: 7, E: 6, F: 5, 
+  G: 4, H: 3, K: 2, 
+  L: 1 
+};
 const TOP_N = 300; 
 
 /* -------------------------
@@ -372,11 +392,11 @@ function readInventory(prefix){
 }
 function saveInventory(){
   const data = { class: readInventory('class'), general: readInventory('general') };
-  localStorage.setItem('arkGridInventory_v4', JSON.stringify(data));
+  localStorage.setItem('arkGridInventory_v5', JSON.stringify(data));
   alert('Inventory saved to browser storage.');
 }
 function loadInventory(){
-  const raw = localStorage.getItem('arkGridInventory_v4');
+  const raw = localStorage.getItem('arkGridInventory_v5');
   if(!raw){ alert('No saved inventory found.'); return; }
   try{
     const obj = JSON.parse(raw);
@@ -389,7 +409,7 @@ function loadInventory(){
 }
 function resetDefaults(){
   const sides = ['class', 'general'];
-  const gems = ['A','B','C','D','E','F','G'];
+  const gems = Object.keys(ASTROGEMS);
   sides.forEach(side => {
     gems.forEach(gem => {
       const el = document.getElementById(`${side}_${gem}`);
@@ -401,7 +421,7 @@ function resetDefaults(){
 }
 
 /* -------------------------
-   Core combination generator (Fix applied here)
+   Core combination generator
    ------------------------- */
 function generateCoreCombos(inv, maxWill) {
   const types = Object.keys(ASTROGEMS);
@@ -431,13 +451,7 @@ function generateCoreCombos(inv, maxWill) {
   }
   backtrack(0, [], {});
 
-  /* SMART SORT LOGIC:
-     1. Group by Points.
-     2. For each point bucket, we need VARIETY. We want both "Efficient" (Low WP) combos 
-        and "Inefficient" (High WP) combos.
-     3. High WP combos are valuable for Ancient cores (limit 17) to "dump" heavy gems, 
-        saving efficient gems for Relic cores (limit 15).
-  */
+  /* SMART SORT LOGIC: */
   const byPoints = {};
   for(const r of results) {
     if(!byPoints[r.points]) byPoints[r.points] = [];
@@ -605,7 +619,6 @@ function calculateBoth(){
 window.onload = function(){
   buildCoreConfig('class_core_config','class');
   buildCoreConfig('general_core_config','general');
-  // Initial calculation check (will be empty on defaults)
   calculateBoth();
 };
 </script>
